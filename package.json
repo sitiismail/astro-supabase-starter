@@ -11,11 +11,16 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "@astrojs/netlify": "^6.1.0",
+    "@astrojs/netlify": "^8.2.10",
     "@supabase/supabase-js": "^2.48.1",
     "@tailwindcss/vite": "^4.0.1",
-    "astro": "^5.15.9",
+    "astro": "^7.4.2",
     "typescript": "^5.6.3"
+  },
+  "overrides": {
+    "@tailwindcss/typography": {
+      "postcss-selector-parser": "6.1.5"
+    }
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.16",
